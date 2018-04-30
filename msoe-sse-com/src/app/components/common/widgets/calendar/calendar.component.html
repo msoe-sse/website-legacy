@@ -1,0 +1,17 @@
+<div class="long-title">
+    <h3>SSE Calendar</h3>
+</div>
+<dx-scheduler
+    [dataSource]="dataSource"
+    [editing]="false"
+    startDateExpr="start.dateTime"
+    endDateExpr="end.dateTime"
+    textExpr="summary"
+    [startDayHour]="7"
+    timeZone="America/Chicago"
+    [showAllDayPanel]="false"
+    [views]='["day", "week", "month"]'
+    currentView="month"
+    [currentDate]="currentDate"
+    [height]="600">
+</dx-scheduler>

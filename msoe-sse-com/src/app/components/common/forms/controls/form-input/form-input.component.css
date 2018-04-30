@@ -1,0 +1,12 @@
+.input-group {
+  margin-top: 10px;
+}
+
+.input-group span i {
+  width: 16px;
+  height: 16px;
+}
+
+input {
+  max-width: 400px;
+}

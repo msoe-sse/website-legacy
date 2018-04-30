@@ -1,0 +1,11 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    Register
+  </div>
+  <div class="panel-body">
+      <sse-dynamic-form [config]="formConfig" (submitted)="submit($event)"></sse-dynamic-form>
+  </div>
+  <div class="panel-footer">
+      <a [routerLink]="['', 'signin']">Sign In</a>
+  </div>
+</div>

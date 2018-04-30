@@ -1,0 +1,8 @@
+<ng-container [formGroup]="group">
+  <select [required]="config.required" [formControlName]="config.name">
+    <option>{{config.placeholder}}</option>
+    <option *ngFor="let option of config.options" [value]="option.value">
+      {{option.name}}
+    </option>
+  </select>
+</ng-container>

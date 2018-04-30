@@ -1,0 +1,12 @@
+# Generated Site
+/_site
+
+# Local Packages
+/.bundle/ruby/
+
+# Temporary Files
+.sass_cache*
+.jekyll-metadata
+
+# System Files
+.DS_Store

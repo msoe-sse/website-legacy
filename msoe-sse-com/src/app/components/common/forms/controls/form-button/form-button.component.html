@@ -1,0 +1,6 @@
+<button class="btn btn-primary" [formGroup]="group" [type]="config.action" [disabled]="!group.valid">
+  {{config.label}}
+  <span *ngIf="config.icon">
+    &nbsp;<i class="fa {{config.icon}}"></i>
+  </span>
+</button>

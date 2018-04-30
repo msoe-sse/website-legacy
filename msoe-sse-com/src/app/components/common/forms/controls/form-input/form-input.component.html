@@ -1,0 +1,12 @@
+<!-- TODO: config.icon -->
+<ng-container [formGroup]="group">
+  <div class="input-group">
+    <span class="input-group-addon"><i class="fa {{config.icon}}"></i></span>
+    <input [type]="config.type" class="form-control"
+           [max]="config.max" [min]="config.min"
+           [step]="config.step" [required]="config.required"
+           [value]="config.value || ''"
+           [placeholder]="config.placeholder"
+           [formControlName]="config.name">
+  </div>
+</ng-container>
